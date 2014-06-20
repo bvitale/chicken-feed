@@ -1,0 +1,26 @@
+{
+  "name": "chicken-feed",
+  "version": "0.0.0",
+  "description": "Budget manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bvitale/chicken-feed.git"
+  },
+  "author": "Ben Vitale",
+  "license": "TBD",
+  "bugs": {
+    "url": "https://github.com/bvitale/chicken-feed/issues"
+  },
+  "homepage": "https://github.com/bvitale/chicken-feed",
+  "dependencies": {
+    "express": "^4.4.3",
+    "debug": "^1.0.2",
+    "morgan": "^1.1.1",
+    "body-parser": "^1.4.3"
+  }
+}
